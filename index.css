@@ -1,0 +1,220 @@
+*{  /*resetar o navegador*/
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+
+html, body{ 
+
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+    color: rgb(255, 255, 255); /*cor da fonte*/
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    
+
+    background-color: #e5e5f7;
+    background-image:  linear-gradient(135deg, #508991 25%, transparent 25%), linear-gradient(225deg, #508991 25%, transparent 25%), linear-gradient(45deg, #508991 25%, transparent 25%), linear-gradient(315deg, #508991 25%, #e5e5f7 25%);
+    background-position:  10px 0, 10px 0, 0 0, 0 0;
+    background-size: 80px 80px;
+    background-repeat: repeat;
+
+
+
+
+}
+
+aside{
+
+    height: 100%;
+    width: 20%;
+
+    background-color: #172A3A;
+
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+
+    gap: 3rem;
+
+    position: fixed;
+
+
+
+
+
+}
+
+main{
+
+    height: 100%;
+    width: 100%;
+
+    margin-top: 200rem;
+    margin-bottom: 10rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    gap: 7rem;
+
+
+
+}
+
+/*
+#dashboard{
+
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+    border-radius: 2rem;
+    background-color: #004346;
+
+    height: 9rem;
+    width: 47rem; 
+    
+    margin-top: 5rem;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}*/
+
+#mosiah{
+
+    font-size: 4rem;
+    font-weight: bolder;
+
+
+}
+
+
+ul{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+
+li{
+
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+    cursor: pointer;
+
+}
+
+
+
+.slide{
+
+    width: 80rem;
+
+    border-radius: 2rem;
+
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5)); 
+
+}
+
+.slide:hover{
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+
+    
+    cursor: pointer;
+
+
+
+}
+
+
+section{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #4b7f85;
+
+    margin-top: 5rem;
+    margin-left: 25rem;
+    border-radius: 5rem;
+
+
+
+    height: 80rem;
+    width: 100rem;
+
+
+
+}
+
+.descricao{
+
+    font-size: 1.8rem;
+
+    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+
+    text-align: justify;
+    font-weight: bold;
+
+}
+
+.nome{
+
+    font-size: 5rem;
+
+    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+
+    font-weight: bold;
+
+}
+
+div{
+
+    display: flex;
+    flex-direction: initial;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover{
+
+    color: #74B3CE;
+
+}
+
